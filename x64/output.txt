@@ -1,0 +1,141 @@
+{eggs,breathes,legs (6)} -> {type (6)}
+{hair,milk,predator,toothed,backbone,breathes,legs (2),type (1)} -> {catsize}
+{aquatic,backbone,breathes,legs (2)} -> {tail}
+{predator,toothed,backbone,venomous,legs (0)} -> {tail}
+{eggs,toothed,backbone,legs (0)} -> {tail}
+{eggs,predator,toothed,backbone,breathes,legs (0),tail} -> {type (3)}
+{eggs,backbone,domestic} -> {tail}
+{eggs,backbone,catsize} -> {tail}
+{hair,milk,toothed,backbone,breathes,legs (4),domestic,catsize,type (1)} -> {tail}
+{hair,eggs,airborne,breathes} -> {legs (6),type (6)}
+{airborne,backbone,breathes} -> {legs (2),tail}
+{hair,milk,aquatic,predator,toothed,backbone,breathes,fins,tail,catsize,type (1)} -> {legs (2)}
+{eggs,aquatic,toothed,backbone,fins} -> {legs (0),tail,type (4)}
+{predator,toothed,backbone,venomous,tail} -> {legs (0)}
+{eggs,breathes,type (7)} -> {legs (0)}
+{eggs,aquatic,toothed,backbone,breathes} -> {legs (4),type (5)}
+{eggs,aquatic,toothed,backbone,legs (0),tail} -> {fins,type (4)}
+{predator,breathes,type (7)} -> {venomous,legs (8),tail}
+{eggs,aquatic,predator,legs (0),type (7)} -> {venomous}
+{airborne} -> {breathes}
+{hair} -> {breathes}
+{predator,venomous,legs (8),type (7)} -> {breathes,tail}
+{eggs,backbone,tail,type (3)} -> {breathes}
+{backbone,legs (4)} -> {breathes}
+{type (3)} -> {backbone,tail}
+{legs (2)} -> {backbone,breathes}
+{toothed} -> {backbone}
+{milk} -> {backbone,breathes,type (1)}
+{tail,catsize} -> {backbone}
+{tail,domestic} -> {backbone}
+{airborne,breathes,tail} -> {backbone,legs (2)}
+{eggs,tail} -> {backbone}
+{aquatic,tail} -> {backbone}
+{legs (4),tail} -> {backbone,breathes}
+{breathes,catsize} -> {backbone}
+{legs (4),catsize} -> {backbone,breathes}
+{aquatic,breathes} -> {backbone}
+{breathes,legs (4)} -> {backbone}
+{predator,backbone,tail,type (3)} -> {toothed}
+{eggs,predator,breathes,venomous} -> {toothed,backbone}
+{hair,milk,toothed,backbone,breathes,tail,domestic,type (1)} -> {legs (4)}
+{backbone,legs (0)} -> {toothed}
+{legs (0),tail} -> {toothed,backbone}
+{predator,breathes,legs (0)} -> {toothed,backbone}
+{legs (8)} -> {predator,type (7)}
+{aquatic,backbone,tail,type (3)} -> {predator,toothed,venomous,legs (0)}
+{toothed,backbone,tail,type (3)} -> {predator}
+{venomous,type (7)} -> {predator}
+{tail,type (7)} -> {predator,breathes,venomous,legs (8)}
+{aquatic,venomous} -> {predator}
+{backbone,venomous} -> {predator,toothed}
+{venomous,tail} -> {predator}
+{venomous,legs (0)} -> {predator}
+{eggs,aquatic,legs (6)} -> {predator,type (7)}
+{hair,milk,toothed,backbone,breathes,legs (2),domestic,type (1)} -> {predator,catsize}
+{aquatic,toothed,backbone,catsize} -> {predator}
+{aquatic,backbone,breathes,legs (4),tail} -> {predator}
+{milk,aquatic,backbone,breathes,type (1)} -> {predator,catsize}
+{toothed,backbone,breathes,legs (0)} -> {predator}
+{aquatic,toothed,backbone,breathes,tail} -> {predator}
+{eggs,toothed,backbone,breathes,tail} -> {predator}
+{fins} -> {aquatic,toothed,backbone}
+{eggs,predator,legs (8),type (7)} -> {aquatic,catsize}
+{eggs,predator,venomous,type (7)} -> {aquatic,legs (0)}
+{eggs,legs (6),type (7)} -> {aquatic,predator}
+{milk,predator,toothed,backbone,breathes,legs (0),type (1)} -> {aquatic,fins,catsize}
+{legs (0),catsize} -> {aquatic,predator,toothed,backbone,fins}
+{hair,milk,predator,toothed,backbone,breathes,legs (2),tail,catsize,type (1)} -> {aquatic,fins}
+{eggs,toothed,backbone,tail,domestic} -> {aquatic,fins,legs (0),type (4)}
+{eggs,toothed,backbone,tail,catsize} -> {aquatic,predator,fins,legs (0),type (4)}
+{hair,eggs,breathes,legs (6),type (6)} -> {airborne}
+{eggs,predator,breathes,legs (6),type (6)} -> {airborne}
+{eggs,legs (6),domestic} -> {hair,airborne,breathes,venomous,type (6)}
+{eggs,breathes,domestic} -> {airborne}
+{type (1)} -> {milk,backbone,breathes}
+{hair,backbone,breathes} -> {milk,type (1)}
+{hair,breathes,legs (0)} -> {milk,aquatic,predator,toothed,backbone,fins,catsize,type (1)}
+{hair,breathes,tail} -> {milk,backbone,type (1)}
+{hair,predator,breathes} -> {milk,backbone,type (1)}
+{aquatic,backbone,breathes,legs (4),catsize} -> {hair,milk,predator,tail,type (1)}
+{predator,backbone,breathes,legs (4),catsize} -> {hair,milk,type (1)}
+{feathers,eggs,airborne,aquatic,predator,backbone,breathes,legs (2),tail,catsize,type (2)} -> {hair,milk,toothed,venomous,fins,legs (4),legs (0),legs (6),legs (8),legs (5),domestic,type (1),type (4),type (7),type (6),type (5),type (3)}
+{domestic,catsize} -> {hair,milk,toothed,backbone,breathes,type (1)}
+{milk,backbone,breathes,domestic,type (1)} -> {hair,toothed}
+{legs (4),domestic} -> {hair,milk,toothed,backbone,breathes,type (1)}
+{toothed,backbone,breathes,legs (2)} -> {hair,milk,type (1)}
+{aquatic,toothed,backbone,breathes,fins} -> {milk,predator,catsize,type (1)}
+{toothed,backbone,breathes,catsize} -> {milk,type (1)}
+{toothed,backbone,breathes,domestic} -> {hair,milk,type (1)}
+{aquatic,predator,toothed,backbone,breathes,legs (0)} -> {milk,fins,catsize,type (1)}
+{predator,domestic} -> {hair,milk,toothed,backbone,breathes,catsize,type (1)}
+{type (5)} -> {eggs,aquatic,toothed,backbone,breathes,legs (4)}
+{milk,backbone,breathes,legs (2),type (1)} -> {hair,toothed}
+{type (6)} -> {eggs,breathes,legs (6)}
+{type (4)} -> {eggs,aquatic,toothed,backbone,fins,legs (0),tail}
+{legs (5)} -> {eggs,aquatic,predator,type (7)}
+{legs (6)} -> {eggs}
+{eggs,milk,backbone,breathes,type (1)} -> {hair,aquatic,predator,legs (4),tail,catsize}
+{feathers} -> {eggs,backbone,breathes,legs (2),tail,type (2)}
+{milk,backbone,breathes,legs (4),type (1)} -> {hair}
+{backbone,breathes,tail,type (3)} -> {eggs}
+{backbone,tail,catsize,type (3)} -> {eggs,breathes,legs (4)}
+{aquatic,type (7)} -> {eggs,predator}
+{hair,breathes,venomous} -> {eggs,airborne,legs (6),type (6)}
+{predator,toothed,backbone,breathes,venomous} -> {eggs}
+{legs (0),type (7)} -> {eggs}
+{aquatic,predator,toothed,backbone,venomous,fins} -> {eggs,legs (0),tail,catsize,type (4)}
+{legs (4),type (7)} -> {eggs,aquatic,predator}
+{venomous,legs (4)} -> {eggs,aquatic,predator,toothed,backbone,breathes,type (5)}
+{catsize,type (7)} -> {eggs,aquatic,predator,legs (8)}
+{venomous,catsize} -> {eggs,aquatic,predator,toothed,backbone,fins,legs (0),tail,type (4)}
+{airborne,breathes,domestic} -> {eggs}
+{airborne,predator,breathes} -> {eggs}
+{legs (0),domestic} -> {eggs,aquatic,toothed,backbone,fins,tail,type (4)}
+{aquatic,domestic} -> {eggs,toothed,backbone,fins,legs (0),tail,type (4)}
+{type (2)} -> {feathers,eggs,backbone,breathes,legs (2),tail}
+{eggs,backbone,breathes,legs (2)} -> {feathers,tail,type (2)}
+{backbone,breathes,legs (4),legs (2)} -> {hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,venomous,fins,legs (0),legs (6),legs (8),legs (5),tail,domestic,catsize,type (1),type (4),type (2),type (7),type (6),type (5),type (3)}
+{airborne,aquatic,backbone,breathes,legs (2),tail} -> {feathers,eggs,type (2)}
+{airborne,breathes,legs (0)} -> {hair,feathers,eggs,milk,aquatic,predator,toothed,backbone,venomous,fins,legs (4),legs (2),legs (6),legs (8),legs (5),tail,domestic,catsize,type (1),type (4),type (2),type (7),type (6),type (5),type (3)}
+{airborne,breathes,type (7)} -> {hair,feathers,eggs,milk,aquatic,predator,toothed,backbone,venomous,fins,legs (4),legs (0),legs (2),legs (6),legs (8),legs (5),tail,domestic,catsize,type (1),type (4),type (2),type (6),type (5),type (3)}
+{backbone,breathes,legs (2),tail,domestic} -> {feathers,eggs,airborne,type (2)}
+{airborne,backbone,breathes,legs (2),tail,catsize} -> {feathers,eggs,type (2)}
+{eggs,legs (4),legs (6)} -> {hair,feathers,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,legs (0),legs (2),legs (8),legs (5),tail,domestic,catsize,type (1),type (4),type (2),type (7),type (6),type (5),type (3)}
+{eggs,legs (0),legs (6)} -> {hair,feathers,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,legs (4),legs (2),legs (8),legs (5),tail,domestic,catsize,type (1),type (4),type (2),type (7),type (6),type (5),type (3)}
+{eggs,backbone,legs (6)} -> {hair,feathers,milk,airborne,aquatic,predator,toothed,breathes,venomous,fins,legs (4),legs (0),legs (2),legs (8),legs (5),tail,domestic,catsize,type (1),type (4),type (2),type (7),type (6),type (5),type (3)}
+{eggs,legs (6),catsize} -> {hair,feathers,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,legs (4),legs (0),legs (2),legs (8),legs (5),tail,domestic,type (1),type (4),type (2),type (7),type (6),type (5),type (3)}
+{hair,breathes,type (7)} -> {feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,venomous,fins,legs (4),legs (0),legs (2),legs (6),legs (8),legs (5),tail,domestic,catsize,type (1),type (4),type (2),type (6),type (5),type (3)}
+{domestic,type (7)} -> {hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,legs (4),legs (0),legs (2),legs (6),legs (8),legs (5),tail,catsize,type (1),type (4),type (2),type (6),type (5),type (3)}
+{backbone,type (7)} -> {hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,breathes,venomous,fins,legs (4),legs (0),legs (2),legs (6),legs (8),legs (5),tail,domestic,catsize,type (1),type (4),type (2),type (6),type (5),type (3)}
+{hair,milk,aquatic,predator,toothed,backbone,breathes,fins,legs (0),legs (2),tail,catsize,type (1)} -> {feathers,eggs,airborne,venomous,legs (4),legs (6),legs (8),legs (5),domestic,type (4),type (2),type (7),type (6),type (5),type (3)}
+{legs (4),legs (0)} -> {hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,backbone,breathes,venomous,fins,legs (2),legs (6),legs (8),legs (5),tail,domestic,catsize,type (1),type (4),type (2),type (7),type (6),type (5),type (3)}
+{venomous,domestic} -> {hair,eggs,airborne,breathes,legs (6),type (6)}
+{airborne,breathes,venomous} -> {hair,eggs,legs (6),type (6)}
+{eggs,aquatic,predator,legs (8),legs (5),catsize,type (7)} -> {hair,feathers,milk,airborne,toothed,backbone,breathes,venomous,fins,legs (4),legs (0),legs (2),legs (6),tail,domestic,type (1),type (4),type (2),type (6),type (5),type (3)}
+{eggs,aquatic,predator,legs (6),legs (5),type (7)} -> {hair,feathers,milk,airborne,toothed,backbone,breathes,venomous,fins,legs (4),legs (0),legs (2),legs (8),tail,domestic,catsize,type (1),type (4),type (2),type (6),type (5),type (3)}
+{eggs,aquatic,predator,legs (4),legs (5),type (7)} -> {hair,feathers,milk,airborne,toothed,backbone,breathes,venomous,fins,legs (0),legs (2),legs (6),legs (8),tail,domestic,catsize,type (1),type (4),type (2),type (6),type (5),type (3)}
+{eggs,aquatic,predator,venomous,legs (0),legs (5),type (7)} -> {hair,feathers,milk,airborne,toothed,backbone,breathes,fins,legs (4),legs (2),legs (6),legs (8),tail,domestic,catsize,type (1),type (4),type (2),type (6),type (5),type (3)}
+{feathers,eggs,backbone,breathes,legs (2),tail,type (2),type (3)} -> {hair,milk,airborne,aquatic,predator,toothed,venomous,fins,legs (4),legs (0),legs (6),legs (8),legs (5),domestic,catsize,type (1),type (4),type (7),type (6),type (5)}
+{backbone,tail,domestic,type (3)} -> {hair,feathers,eggs,milk,airborne,aquatic,predator,toothed,breathes,venomous,fins,legs (4),legs (0),legs (2),legs (6),legs (8),legs (5),catsize,type (1),type (4),type (2),type (7),type (6),type (5)}
+{eggs,venomous,legs (6)} -> {hair,airborne,breathes,type (6)}

@@ -1,0 +1,32 @@
+﻿Сборка начата 30.05.2014 0:26:29.
+     1>Проект "C:\Users\Pavel\Google Диск\Projects\Implication Basis\Implication Basis\Implication Basis.vcxproj" в узле 2 (целевые объекты Rebuild).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\local\boost_1_55_0 /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt closure.cpp Context.cpp Implication.cpp lectic_order.cpp LongInt.cpp proper_premises.cpp inout.cpp main.cpp transversals.cpp Trie.cpp
+         Trie.cpp
+         transversals.cpp
+         main.cpp
+         inout.cpp
+         proper_premises.cpp
+         LongInt.cpp
+         lectic_order.cpp
+         Implication.cpp
+         Context.cpp
+         closure.cpp
+         Создание кода...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Pavel\Google Диск\Projects\Implication Basis\Debug\Implication Basis.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\local\boost_1_55_0\lib64-msvc-11.0" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Pavel\Google Диск\Projects\Implication Basis\Debug\Implication Basis.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Pavel\Google Диск\Projects\Implication Basis\Debug\Implication Basis.lib" /MACHINE:X86 Debug\closure.obj
+         Debug\Context.obj
+         Debug\Implication.obj
+         Debug\lectic_order.obj
+         Debug\LongInt.obj
+         Debug\proper_premises.obj
+         Debug\inout.obj
+         Debug\main.obj
+         Debug\transversals.obj
+         Debug\Trie.obj
+         Implication Basis.vcxproj -> C:\Users\Pavel\Google Диск\Projects\Implication Basis\Debug\Implication Basis.exe
+     1>Построение проекта "C:\Users\Pavel\Google Диск\Projects\Implication Basis\Implication Basis\Implication Basis.vcxproj" завершено (целевые объекты Rebuild).
+
+Сборка успешно завершена.
+
+Затраченное время: 00:00:08.76
